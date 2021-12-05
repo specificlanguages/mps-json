@@ -1,0 +1,11 @@
+source_gen/
+classes_gen/
+source_gen.caches/
+build/
+.gradle/
+.idea/
+*.iml
+build.xml
+
+# This file contains private settings for publishing
+gradle.properties
