@@ -28,7 +28,7 @@ publishing {
         if (project.hasProperty("gpr.user")) {
             maven {
                 name = "GitHubPackages"
-                url = uri("https://maven.pkg.github.com/specificlanguages/mps-to-json-exporter")
+                url = uri("https://maven.pkg.github.com/specificlanguages/mps-json")
                 credentials {
                     username = project.findProperty("gpr.user") as String?
                     password = project.findProperty("gpr.key") as String?
