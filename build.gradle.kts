@@ -1,10 +1,10 @@
 plugins {
-    id("com.specificlanguages.mps") version "1.2.2"
+    id("com.specificlanguages.mps") version "1.6.0"
     `maven-publish`
 }
 
 repositories {
-    maven(url = "https://projects.itemis.de/nexus/content/repositories/mbeddr")
+    maven { url = uri("https://artifacts.itemis.cloud/repository/maven-mps/") }
     mavenCentral()
 }
 
