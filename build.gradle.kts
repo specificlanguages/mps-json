@@ -1,5 +1,12 @@
+buildscript {
+    repositories {
+        maven { url = uri("https://artifacts.itemis.cloud/repository/maven-mps/") }
+        mavenCentral()
+    }
+}
+
 plugins {
-    id("com.specificlanguages.mps") version "1.6.0"
+    id("com.specificlanguages.mps") version "1.8.0"
     `maven-publish`
 }
 
