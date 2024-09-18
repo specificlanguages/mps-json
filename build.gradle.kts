@@ -1,15 +1,15 @@
 plugins {
-    id("com.specificlanguages.mps") version "1.2.0"
+    id("com.specificlanguages.mps") version "1.8.0"
     `maven-publish`
 }
 
 repositories {
-    maven(url = "https://projects.itemis.de/nexus/content/repositories/mbeddr")
+    maven { url = uri("https://artifacts.itemis.cloud/repository/maven-mps/") }
     mavenCentral()
 }
 
 dependencies {
-    "mps"("com.jetbrains:mps:2021.1.3")
+    "mps"("com.jetbrains:mps:2021.1.4")
 }
 
 group = "com.specificlanguages"
