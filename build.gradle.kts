@@ -9,11 +9,11 @@ repositories {
 }
 
 dependencies {
-    "mps"("com.jetbrains:mps:2021.1.4")
+    "mps"("com.jetbrains:mps:2023.2.1")
 }
 
 group = "com.specificlanguages"
-version = "1.0.0"
+version = "2.0.0"
 
 publishing {
     publications {
