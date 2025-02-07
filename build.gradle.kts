@@ -12,7 +12,7 @@ dependencies {
     "mps"("com.jetbrains:mps:2023.2.1")
 }
 
-group = "com.specificlanguages"
+group = "com.specificlanguages.mps-json"
 version = "2.0.0"
 
 publishing {
